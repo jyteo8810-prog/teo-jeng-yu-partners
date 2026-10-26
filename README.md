@@ -25,3 +25,11 @@ Nav, mobile menu (tap "Menu" on small screens) and footer are shared across ever
 Four photos were added (hero, "how we work" band, construction/development band, "behind the matters" band) to give the site a more corporate, professional feel. All are sourced from Unsplash and used under the Unsplash License (free for commercial use, no attribution required): https://unsplash.com/license. They're hotlinked to images.unsplash.com, so no image files need to be uploaded to the repo — if you'd rather self-host them, download the files and update the `src` paths.
 
 These are atmospheric/stock images (skyline, office facade, boardroom, construction site) — not photos of the actual firm, office or lawyers. For the strongest impression on corporate and institutional clients, swap them out for real photography of the office, the partners and any signature matters as soon as it's available.
+
+## Practice area photos, full case list, expanded FAQ (v7)
+- Each of the 7 practice-area pages now has a themed photo banner (contract signing, construction site, boardroom, financial chart, invoice/calculator, property keys, gavel/law book), taking the same visual cue as the firm profile deck. All photos are from Unsplash, free for commercial use under the Unsplash License, hotlinked (no files to host).
+- Selected Experience (`experience.html`) now lists all 12 reported cases from the firm profile, not just 4.
+- The FAQ page now has 25 questions grouped into 8 categories (general, and one per practice area) instead of 4.
+
+## Experience page temporarily removed (v8)
+The Selected Experience page has been taken down at the client's request, for the time being. All nav/footer links and cross-page CTAs that pointed to it have been removed or rerouted (industries.html now leads straight to insights.html instead). The case list content isn't lost — it was removed from the live site only. If you want it added back later, just ask.
