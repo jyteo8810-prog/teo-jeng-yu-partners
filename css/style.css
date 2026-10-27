@@ -63,3 +63,8 @@
 .statement .three div{text-align:center;min-width:0;overflow-wrap:break-word;padding-left:8px;padding-right:8px}
 .statement .three b{display:block}
 @media(max-width:900px){.statement{padding:70px 24px}.statement .three{grid-template-columns:1fr;gap:28px}}
+
+/* Mobile menu: scrollable on phones (accounts for browser toolbars) */
+.mobilenav nav{max-height:calc(100vh - 82px);max-height:calc(100dvh - 82px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y;padding-bottom:max(22px,env(safe-area-inset-bottom))}
+.nav .mobilenav nav{display:flex}
+@media(min-width:901px){.nav .mobilenav{display:none}}
