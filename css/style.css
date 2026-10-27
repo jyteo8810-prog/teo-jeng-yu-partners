@@ -50,3 +50,16 @@
 .profile-photo{width:280px;min-width:280px;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:top;display:block;border-bottom:3px solid var(--gold)}
 .profile-body{max-width:600px;flex:1}
 @media(max-width:900px){.profile{flex-direction:column;gap:26px}.profile-photo{width:100%;max-width:300px;min-width:0}}
+
+.statement{padding:100px 10vw;text-align:center}
+.statement .three{max-width:1040px;margin-left:auto;margin-right:auto}
+.statement .three div{text-align:center}
+@media(max-width:900px){.statement{padding:70px 7vw}}
+
+/* Our Approach: centred, safe padding, no clipping */
+.statement{padding:100px max(24px,8vw);text-align:center;overflow:hidden}
+.statement .label{display:block;text-align:center;width:100%;margin:0 auto}
+.statement .three{width:100%;max-width:1040px;margin:50px auto 0;padding:0}
+.statement .three div{text-align:center;min-width:0;overflow-wrap:break-word;padding-left:8px;padding-right:8px}
+.statement .three b{display:block}
+@media(max-width:900px){.statement{padding:70px 24px}.statement .three{grid-template-columns:1fr;gap:28px}}
